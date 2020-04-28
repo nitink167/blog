@@ -11,6 +11,8 @@ const app=express();
 const authRoutes=require('./routes/authentication');
 const userRoutes=require('./routes/user');
 const blogRoutes=require('./routes/blog');
+
+//Nitin's Edit: Remove this extra blogRoutes
 blogRoutes
 
 //db connection
